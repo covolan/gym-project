@@ -1,0 +1,9 @@
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 3em 1em;
+}
+.main-content-logodiv {
+  border: 2px solid black;
+  margin: 1em;
+}/*# sourceMappingURL=maincontent.css.map */

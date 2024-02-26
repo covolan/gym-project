@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
+}
+.navbar-logo {
+  padding: 0 1em;
+}
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+}
+.navbar-list-element {
+  padding: 0 1em;
+}/*# sourceMappingURL=navbar.css.map */

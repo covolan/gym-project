@@ -1,0 +1,17 @@
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+
+    &-logo {
+        padding: 0 1em;
+    }
+
+     &-list {
+        list-style-type: none;
+        display: flex;
+        &-element {
+            padding: 0 1em;
+        }
+     }
+ }
