@@ -1,19 +1,21 @@
 import React from "react";
-import "./styles/maincontent.css"
+import "./styles/maincontent.css";
 
 const Maincontent = () => {
   return (
     <div className="main-content">
-      <div className="main-content-logodiv">logo</div>
+      <div></div>
       <div className="main-content-description">
-        <h1>Começe agora!</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-          amet quam beatae! Hic ullam placeat voluptas repellat sapiente
-          excepturi voluptatibus eos eaque nam omnis, eveniet culpa atque
-          expedita sit error!
+        <h1 className="main-content-description-title">Começe agora!</h1>
+        <p className="main-content-description-text">
+          Junte-se a nós para descobrir o poder que está dentro de você. Na
+          academia, cada esforço é um passo em direção à sua melhor versão.
+          Aqui, encontramos desafios e oportunidades para crescermos juntos.
+          Venha fazer parte desta jornada de superação e transformação. Não
+          espere mais, seu potencial aguarda por você. Vamos alcançar grandes
+          conquistas lado a lado!
         </p>
-        <button>entre em contato</button>
+        <button className="main-content-description-btn">Escolha um plano!</button>
       </div>
     </div>
   );

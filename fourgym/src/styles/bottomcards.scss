@@ -1,5 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap");
+
 .carddiv {
-    margin: 2em;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+  font-family: "Cabin", sans-serif;
+  margin: 2em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: start;
+  &-card {
+    .icon-div {
+      padding: 0em 1em 0 0;
+      font-size: 20pt;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13pt;
+    padding: 0.5em 1em 1em;
+    margin: 0 1.3em;
+    border: 1px solid black;
+  }
+  .main-card {
+    font-size: 18pt;
+    padding: 0em 1em 1em;
+    text-align: center;
+  }
 }
