@@ -15,7 +15,11 @@ const Maincontent = () => {
           espere mais, seu potencial aguarda por você. Vamos alcançar grandes
           conquistas lado a lado!
         </p>
-        <button className="main-content-description-btn">Escolha um plano!</button>
+        <a href="/contact/">
+          <button className="main-content-description-btn">
+            Escolha um plano!
+          </button>
+        </a>
       </div>
     </div>
   );
