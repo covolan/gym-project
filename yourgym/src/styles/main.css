@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.fake-body {
+  background: no-repeat center/100% url("../pexels-william-choquette-1954524.jpg");
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}/*# sourceMappingURL=main.css.map */
