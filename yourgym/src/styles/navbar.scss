@@ -2,11 +2,14 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  margin: 1em;
+  margin: 0.2em;
   font-family: "Cabin", sans-serif;
+  max-width: 80em;
+
+  color: #E5E5CB;
 
   &-logo {
-    padding: 0 1em;
+    padding: 1em 1em;
     font-weight: 500;
   }
 
@@ -14,7 +17,14 @@
     list-style-type: none;
     display: flex;
     &-element {
-      padding: 0 1em;
+      padding: 1em 1em;
+      cursor: pointer;
+      &:hover {
+        background-color: #E5E5CB;
+        border-radius: 0.2em;
+        color: #3C2A21;
+        transition: 0.3s ease;
+      }
     }
   }
 }
